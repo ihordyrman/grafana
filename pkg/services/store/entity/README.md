@@ -29,14 +29,15 @@ protocol = https
 unifiedStorage = true
 ; enable k8s apiserver
 grafanaAPIServer = true
-; store playlists in k8s
-kubernetesPlaylists = true
 ; store json id token in context
 idForwarding = true
 
 [grafana-apiserver]
 ; use unified storage for k8s apiserver
 storage_type = unified
+
+[unified_storage]
+playlists.playlist.grafana.app = 2
 ```
 
 With this configuration, you can run everything in-process. Run the Grafana backend with:
