@@ -796,6 +796,19 @@
     },
     {
       "metadata": {
+        "name": "dataplaneAggregator",
+        "resourceVersion": "1722345929981",
+        "creationTimestamp": "2024-07-30T13:25:29Z"
+      },
+      "spec": {
+        "description": "Enable dataplane aggregator",
+        "stage": "experimental",
+        "codeowner": "@grafana/grafana-app-platform-squad",
+        "requiresRestart": true
+      }
+    },
+    {
+      "metadata": {
         "name": "dataplaneFrontendFallback",
         "resourceVersion": "1720021873452",
         "creationTimestamp": "2023-04-07T21:13:19Z",

@@ -83,5 +83,6 @@ grafana:codegen:lsdirs() {
 
 grafana::codegen:run pkg
 grafana::codegen:run pkg/apimachinery
+grafana::codegen:run pkg/aggregator
 
 echo "done."
